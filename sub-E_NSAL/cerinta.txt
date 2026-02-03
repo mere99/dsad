@@ -1,0 +1,48 @@
+In fisierul E_NSAL_2008-2021.csv se afla informatii referitoare la numarul de angajati la nivel de localitate in perioada 2008-2021. Anii sunt variabile. Variabila SIRUTA reprezinta codul Siruta al localitatii. De exemplu, variabila 2008 reprezinta numarul de angajati in anul 2008.
+
+In fisierul PopulatieLocalitati.csv avem informatii despre localitati: codul Siruta, denumirea, populatia si indicativul de judet. Legatura dintre seturile de date se face prin codul Siruta.
+
+A. Cerinte
+
+1. Sa se determine pentru fiecare localitate anul in care care au fost inregistrati cei mai multi angajati. Pentru fiecare localitate se va salva codul Siruta, denumirea localitatii si anul cu cei mai multi angajati. Rezultatele vor fi salvate in fisierul Cerinta1.csv. (1 punct)
+
+Exemplu:
+Siruta,Localitate,Anul
+1017,Municipiul Alba Iulia,2017
+1071,Ciugud,2021
+1151,Oras Abrud,2008
+...
+
+Criteriul de acordare a punctajului: vizualizarea fisierului output.
+
+2. Sa se determine rata ocuparii populatiei pe fiecare an si cea medie (media ratei anilor) la nivel de judet. Rezultatele vor fi salvate in fisierul Cerinta2.csv in ordinea descrescatoare a ratei medii. Rata ocuparii se calculeaza ca raport intre numarul de angajati si populatia judetului. (2 puncte)
+
+Exemplu:
+Judet,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,RataMedie
+b,0.559,0.587,0.561,0.54,0.532,0.529,0.526,0.527,0.541,0.548,0.55,0.56,0.538,0.531,0.545
+if,0.298,0.308,0.291,0.322,0.335,0.36,0.364,0.221,0.438,0.448,0.461,0.482,0.478,0.499,0.379
+
+Criteriul de acordare a punctajului: vizualizarea fisierului output si a codului sursa
+
+B. Sa se efectueze clasificarea pacientilor aflati in blocul post-operator al unui spital. Variabila tinta este DECISION, cu valorile: I (pacientul a fost trimis la sectia de ingrijire intensiva), S (pacientul a fost externat), A (pacientul a fost trimis la sectia de ingrijire generala). Variabilele predictor sunt masuratori care se refera la aspecte legate de temperatura si presiunea sangelui (variabilele de la L_CORE la BP_ST). Variabila Id se refera la id-ul pacientului. Setul de invatare-testare este Pacienti.csv. Setul de aplicare este Pacienti_apply.csv.
+
+Cerinte:
+
+1. Sa se aplice analiza liniara discriminanta si sa se calculeze scorurile discriminante. Acestea vor fi salvate in fisierul z.csv. (1 punct)
+
+Criteriul de acordare a punctajului: vizualizarea fisierului output
+
+2. Sa se traseze graficul scorurilor discriminante in primele doua axe discriminante. (2 puncte)
+
+Criteriul de acordare a punctajului: vizualizarea graficului.
+
+3. Sa se analizeze performantele modelului calculand matricea de confuzie si indicatorii de acuratete. Matricea de acuratete va fi salvata in fisierul matc.csv, iar indicatorii de acuratete vor fi afisati la consola. (2 puncte)
+
+Criteriul de acordare a punctajului: vizualizarea fisierului output
+
+C. In fisierul comm.csv sunt salvate comunalitatile pentru un model de analiza in componente principale standardizata cu cinci variabile observate. Sa se afiseze la consola numarul de componente principale semnificative conform criteriului Kaiser. (1 punct)
+
+1 punct din oficiu
+
+Observatie
+Punctajele se acorda pe baza rezultatelor obtinute!
