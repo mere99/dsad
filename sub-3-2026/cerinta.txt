@@ -1,0 +1,43 @@
+În fișierul *Diversitate.csv* sunt prezentați indicii de diversitate economică la nivel de localitate pe ani. Variabile: *Siruta* - codul Siruta al localității, *Localitate* - denumirea localității *2008, 2009, …, 2021* - anii pentru care sunt prezentați indicii de diversitate.
+
+În fișierul *Coduri_Localitati.csv* se află codificarea localităților și împărțirea acestora pe județe. Variabile: *Siruta* - codul Siruta, *Localitate* - denumirea localității, *Judet* - indicativul de județ, *Siruta* este câmpul de legătură.
+
+**A.** Să se implementeze următoarele cerințe:
+
+**1.** Să se calculeze și să se salveze în fișierul *Cerinta1.csv*, localiățile în care diversitate medie, pe cei 14 ani, este mai mare decât diversitatea în anul 2021. Se va salva codul Siruta, denumirea localității, diversitatea medie pe 2008-2021 și diversitatea în 2021. **(1 punct)**
+
+*Exemplu:*
+```
+Siruta,Localitate,Div Medie,2021
+1151,Cesa Abrud,0.36260142857142854,0.33038
+5140,Municipiul Blaj,0.44084785714285572,0.37121
+```
+
+*Criteriul de acordare a punctajului:* vizualizarea fișierului output și codului sursă
+
+**2.** Să se determine pentru fiecare județ anul în care diversitatea medie (media pe localități) este maximă. Rezultatul va fi salvat în fișierul *Cerinta2.csv*. Se va salva indicativul de județ și anul cu diversitatea medie maximă. **(2 puncte)**
+
+*Exemplu:*
+```
+Judet,Anul
+ab,2020
+ag,2021
+ar,2019
+```
+
+*Criteriul de acordare a punctajului:* vizualizarea fișierului output și codului sursă
+
+**B.** Să se efectueze analiza factorială pentru indicii de diversitate, cu rotație Varimax și să furnizeze următoarele rezultate:
+
+1. Indexul KMO general și la nivel de variabile. Se vor salva indecșii în fișierul *KMO.csv*. **(1 punct)**
+*Criteriul de acordare a punctajului:* vizualizarea fișierului output și a codului sursă
+
+2. Secvențele factoriale. Acestea vor fi salvate în fișierul *f.csv*. **(2 puncte)**
+*Criteriul de acordare a punctajului:* vizualizarea fișierului output și a codului sursă
+
+3. Trasarea plotului de scoruri pentru primii doi factori comuni **(2 puncte)**
+*Criteriul de acordare a punctajului:* vizualizarea graficului.
+
+**C.** În fișierul *a.csv* se află matricea vectorilor proprii așezați pe coloane, obținută în urma aplicării unei analize în componente principale nestandardizate pe un număr de 5 variabile observate, *X₁,..., X₅*. Valorile luate de o instanță x pentru cele 5 variabile sunt: *x = [1,2,-3,3,0]*. Să se determine valoarea cosinus a instanței x în raport cu axa 1 (prima componentă principală). **(1 punct)**
+
+*Criteriul de acordare a punctajului:* urmărirea consolei și a codului sursă
