@@ -1,0 +1,39 @@
+In fisierul CalitateaAeruluiTari.csv sunt prezentate informatii privind calitatea aerului la nivel de tara. Indicatorii care masoara calitatea aerului sunt: Air_quality_Carbon_Monoxide, Air_quality_Ozone, Air_quality_Nitrogen_dioxide, Air_quality_Sulphur_dioxide, Air_quality_PM2.5, Air_quality_PM10. Aceasta cuantifica prezenta diverselor particule in aer (ozon, sulf etc.). Celelalte variabile sunt: CountryId - Codul de tara, Country - numele tarii.
+
+In fisierul CoduriTari.csv se afla codificari ale tarilor si impartirea acestora pe continente. CountryId este campul de legatura.
+
+A. Sa se implementeze urmatoarele cerinte:
+
+1. Salvarea in fisierul Cerinta1.csv a tarii in care se inregistreaza cea mai mare valoare pentru fiecare indicator. Se va salva pentru fiecare indicator numele indicatorului si tara in care s-a inregistrat cea mai mare valoare. (1 punct)
+
+Exemplu:
+Indicator,Country
+Air_quality_Carbon_Monoxide,Indonesia
+
+Criteriul de acordare a punctajului: vizualizarea fisierului output si a codului sursa
+
+2. Salvarea in fisierul Cerinta2.csv a tarilor in care s-au inregistrat cele mai mari valori la nivel de continent, pentru fiecare indicator. Se va salva numele continentului si tarile in care s-au obtinut cele mai mari valori pentru fiecare indicator. (2 puncte)
+
+Exemplu:
+Continent,Air_quality_Carbon_Monoxide,Air_quality_Ozone,Air_quality_Nitrogen_dioxide,Air_quality_Sulphur_dioxide,Air_quality_PM2.5,Air_quality_PM10
+Africa,Ethiopia,Morocco,Algeria,South Africa,Burkina Faso,Mauritania
+
+Criteriul de acordare a punctajului: vizualizarea fisierului output si a codului sursa
+
+B. Sa se efectueze analiza de clusteri prin metoda Ward, pentru indicatorii calitatii aerului si sa se furnizeze urmatoarele rezultate:
+
+1. Matricea ierarhie cu informatii privind jonctiunile facute. Pentru fiecare jonctiune se va specifica clusterii intrati in jonctiune, distanta dintre cei doi clusteri si numarul de instante in clusterul nou format. Matricea va fi afisata la consola. (1 punct)
+
+Criteriul de acordare a punctajului: vizualizarea outputului si a codului sursa
+
+2. Componenta partitiei optimale. Pentru fiecare instanta se determina clusterul de care apartine. Partitia se va salva in fisierul popt.csv. (2 puncte)
+
+Criteriul de acordare a punctajului: vizualizarea fisierului output si a codului sursa
+
+3. Graficele histograma pentru una din variabile (la alegere - se va initializa in cod). (2 puncte)
+
+Criteriul de acordare a punctajului: vizualizarea graficelor si a codului sursa
+
+C. Intr-un model de analiza factoriala cu 5 variabile observate, X1, ..., X5 s-au obtinut coeficientii de corelatie din fisierul g21_1.csv si coeficientii de corelatie partiala din fisierul g21_2.csv. Sa se calculeze si sa se afiseze la consola indexul KMO global. (1 punct)
+
+Criteriul de acordare a punctajului: vizualizarea rezultatului in consola si urmarirea codului sursa.

@@ -1,0 +1,71 @@
+CountryId,Country,Continent
+1,Romania,Europa
+2,Germania,Europa
+3,Franta,Europa
+4,Italia,Europa
+5,Spania,Europa
+6,Polonia,Europa
+7,Ucraina,Europa
+8,Rusia,Europa
+9,Turcia,Europa
+10,Marea Britanie,Europa
+11,China,Asia
+12,India,Asia
+13,Japonia,Asia
+14,Coreea de Sud,Asia
+15,Indonesia,Asia
+16,Vietnam,Asia
+17,Thailanda,Asia
+18,SUA,America de Nord
+19,Canada,America de Nord
+20,Mexic,America de Nord
+21,Brazilia,America de Sud
+22,Argentina,America de Sud
+23,Chile,America de Sud
+24,Peru,America de Sud
+25,Egipt,Africa
+26,Africa de Sud,Africa
+27,Nigeria,Africa
+28,Kenya,Africa
+29,Etiopia,Africa
+30,Maroc,Africa
+31,Algeria,Africa
+32,Australia,Oceania
+33,Noua Zeelanda,Oceania
+34,Filipine,Asia
+35,Malaezia,Asia
+36,Singapore,Asia
+37,Grecia,Europa
+38,Portugalia,Europa
+39,Suedia,Europa
+40,Norvegia,Europa
+41,Danemarca,Europa
+42,Finlanda,Europa
+43,Islanda,Europa
+44,Irlanda,Europa
+45,Belgia,Europa
+46,Olanda,Europa
+47,Austria,Europa
+48,Elvetia,Europa
+49,Cehia,Europa
+50,Ungaria,Europa
+51,Bulgaria,Europa
+52,Serbia,Europa
+53,Croatia,Europa
+54,Slovenia,Europa
+55,Slovacia,Europa
+56,Estonia,Europa
+57,Letonia,Europa
+58,Lituania,Europa
+59,Islanda,Europa
+60,Malta,Europa
+61,Cipru,Europa
+62,Belarus,Europa
+63,Moldova,Europa
+64,Pakistan,Asia
+65,Bangladesh,Asia
+66,Sri Lanka,Asia
+67,Nepal,Asia
+68,Burkina Faso,Africa
+69,Mauritania,Africa
+70,Senegal,Africa
