@@ -1,0 +1,41 @@
+În fișierul MiscareaNaturala.csv sunt prezentați indicatori ai mișcării naturale a populației pe țări, la nivel
+mondial, la nivelul anului 2015 (Sursa datelor: United Nations Statistics Division, https://data.un.org/).
+Indicatori:
+Country_Number Număr unic de identificare țară
+Country_Name Numele țării
+Three_Letter_Country_Code Codul de țară
+FR Rata fertilității
+IM Rata mortalității
+LE Speranța de viață
+LEF Speranța de viață la femei
+LEM Speranța de viață la bărbați
+MMR Rata mortalității maternale
+RS Rata sporului natural
+În fișierul CoduriTariExtins.csv se află codificări ale țărilor și împărțirea acestora pe continente.
+A. Să se implementeze următoarele cerințe:
+1. Salvarea în fișierul cerinta1.csv a țărilor în care rata sporului natural este pozitivă, în ordinea descrescătoare
+a ratei sporului natural. Se va salva codul de țară, numele țării și rata sporului natural. (2 puncte)
+Exemplu:
+Three_Letter_Country_Code,Country_Name,RS
+OMN,"Oman, Sultanate of",6.773
+QAT,"Qatar, State of",6.473
+LBN,"Lebanon, Lebanese Republic",5.536
+...
+Criteriu de acordare a punctajului: vizualizarea fișierului output.
+2. Salvarea în fișierul cerinta2.csv a valorilor medii pentru indicatorii de mai sus, la nivel de continent, pentru
+acele continente la care valoarea medie a ratei sporului natural la nivel de continent este mai mare decât
+valoarea medie a ratei sporului natural la nivel mondial. (2 puncte)
+Exemplu:
+Continent_Name,FR,IM,LE,LEF,LEM,MMR,RS
+Africa,4.5636,52.51648076923077,60.83928846153846,62.66288461538461,59.02846153846154,4
+41.1025884615384,2.358673076923077
+Asia,2.6341302325581397,21.960418604651164,72.48544186046512,74.86209302325582,70.24720
+930232559,84.92276744186047,1.960906976744186
+Criteriu de acordare a punctajului: vizualizarea fișierului output.
+B. Să se efectueze analiza în componente principale standardizată și să se furnizeze următoarele rezultate:
+1. Varianțele componentelor principale. Varianțele vor fi afișate la consolă. (1 punct)
+Criteriu de acordare a punctajului: afișarea corectă a varianțelor.
+1. Scorurile asociate instanțelor. Scorurile vor fi salvate în fișierul scoruri.csv. (2 puncte)
+Criteriu de acordare a punctajului: vizualizarea fișierului scoruri.csv.
+3. Graficul scorurilor în primele două axe principale. (2 puncte)
+Criteriu de acordare a punctajului: vizualizarea corectă a graficului.
