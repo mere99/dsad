@@ -1,0 +1,46 @@
+În fișierul Netflix.csv se află informații referitoare la accesibilitatea platformei Netflix în 57 de țări, în anul
+2022. Variabilele sunt următoarele: Tara, Cod - informații despre țară, Librarie - numărul total de filme și
+seriale disponibile în țara respectivă, CostLunarBasic - tariful abonamentului Basic exprimat în dolari,
+CostLunarStandard - tariful abonamentului Standard exprimat în dolari, CostLunarPremium - tariful
+abonamentului Premium exprimat în dolari, Internet - Procentul populației ce dețin o rețea de internet exprimat
+în %, HDI - Indicele de Dezvoltare Umană, Venit - salariul mediu lunar exprimat în dolari, IndiceFericire,
+IndiceEducatie - indicii fericirii și ai educației. În fișierul CoduriTari.csv se află codificări ale țărilor și
+apartenența la continente. Legătura dintre seturile de date se va face prin codul țării.
+A. Cerințe
+1. Să se standardizeze setul de date (se calculează valorile standardizate ale indicatorilor de la Librarie la
+IndiceEducatie) și să se salveze în fișierul Cerinta1.csv în ordinea descrescătoare după valorile variabilei
+Internet. (1 punct)
+Exemplu:
+Cod,Tara,Librarie,CostLunarBasic,CostLunarStandard,CostLunarPremium,Internet,HDI,Venit,IndiceFeri
+cire,IndiceEducatie
+ISL,Islanda,1.099,0.401,1.053,1.295,1.283,1.19,1.719,1.561,1.057
+DNK,Danemarca,-0.946,1.928,1.188,1.108,1.201,1.07,1.315,1.638,1.135
+...
+Criteriul de acordare a punctajului: vizualizarea fișierului output și a codului sursă
+2. Să se determine coeficienții de variație pentru fiecare indicator la nivel de continent (Coeficientul de variație
+este raportul dintre abaterea standard și medie) și să se salveze în fișierul Cerinta2.csv. Salvarea se va face în
+ordine descrescătoare după coeficienții de variație ai variabilei Librarie. (2 puncte)
+Exemplu:
+Continent,Librarie,CostLunarBasic,CostLunarStandard,CostLunarPremium,Internet,HDI,Venit,IndiceFer
+icire,IndiceEducatie
+Europa,0.198,0.204,0.228,0.255,0.097,0.07,0.667,0.112,0.075
+...
+Criteriul de acordare a punctajului: vizualizarea fișierului output și a codului sursă
+B. Să se efectueze analiza în componente principale standardizată pe setul de date de mai sus (variabilele
+observate sunt de la Librarie la  IndiceEducatie) și să se furnizeze următoarele rezultate:
+1. Varianța componentelor principale. Pentru fiecare componentă se va calcula: varianta, procentul de varianță,
+varianța cumulată (împreună cu componentele anterioare), procentul cumulat (împreună cu componentele
+anterioare). Rezultatele vor fi salvate în fișierul Varianta.csv. (1 punct)
+Criteriul de acordare a punctajului: Vizualizarea fișierului output.
+2. Plot varianță componente cu evidențierea criteriilor de relevanță. (2 puncte)
+Criteriul de acordare a punctajului: vizualizarea graficului
+3. Calcul comunalități și salvarea lor în fișierul comm.csv. (2 puncte)
+Criteriul de acordare a punctajului: Vizualizarea fișierului output
+C. În fișierul h.csv este salvată matricea-ierarhie rezultată în urma unei clusterizări ierarhice. O linie în
+matrice corespunde unei joncțiuni. Coloanele 1 și 2 indică clusterii care produc joncțiunea, coloana 3 este
+distanța dintre cei doi clusteri iar ultima coloană este numărul de instanțe din clusterul nou format. Să se
+afișeze la consolă care este numărul de clusteri din partiția optimală conform algoritmului Elbow.
+Criteriul de acordare a punctajului: urmărirea consolei și a codului sursă
+1 punct din oficiu
+Observație
+Punctajele se acordă pe baza rezultatelor obținute!

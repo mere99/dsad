@@ -1,0 +1,61 @@
+În fișierul GlobalIndicatorsPerCapita_2021.csv sunt prezentați indicatori macroeconomici pe țări, la nivel
+mondial, la nivelul anului 2021 (Sursa datelor: United Nations Statistics Division, https://data.un.org/).
+Indicatori:
+CountryID
+Country
+GNI
+Număr unic de identificare țară
+Numele țării
+Venitul national brut pe locuitor
+ChangesInv
+Exports, Imports
+Variatia stocurilor
+Exportul și importul de bunuri și servicii
+FinalConsExp
+GrossCF
+Cheltuielile pentru consumul final
+Formarea brută de capital fix
+HouseholdConsExp
+AgrHuntForFish, Construction, Manufacturing,
+MiningManUt, TradeT, TransportComm, Other
+Cheltuielile de consum final ale gospodăriilor
+Valoarea adăugată pe ramuri (Agricultură-Vânătoare
+Silvicultură-Pescuit, Construcții, ... , Altele)
+Datele sunt exprimate în USD per capita. În fișierul CoduriTari.csv se află codificări ale țărilor și împărțirea
+acestora pe continente: CountryID - Număr unic de identificare (idem tabel), Country - numele țării (nu sunt
+identice cu cele din fișierul anterior), Continent - numele continentului. Legătura dintre cele două seturi de date
+se face prin CountryId.
+A. Să se implementeze următoarele cerințe:
+1. Să se salveze în fișierul Cerinta1.csv, pentru fiecare țară, ramura cu valoarea adăugată cea mai mare. Se va
+salva codul de țară, numele țării și denumirea indicatorului pentru ramura cu valoarea adăugată cea mai mare.
+Indicatorii cu valoarea adăugată pe ramuri sunt speciaficați pe ultima linie din tabelul de mai sus (de la
+AgrHuntForFish la Other). (1 punct)
+Exemplu:
+CountryID,Country,Ramura Dominanta
+4,Afghanistan,AgrHuntForFish
+...
+Criteriul de acordare a punctajului: vizualizarea fișierului output.
+2. Salvarea în fișierul Cerinta2.csv a țărilor la care s-au înregistrat cele mai mari valori pentru indicatorii de mai
+sus (de la GNI până la sfârșit), la nivel de continent. Pentru fiecare continent se va afișa denumirea continentului
+și id-urile țărilor cu valorile cele mai mari pentru indicatori. (2 puncte)
+Exemplu:
+Continent,GNI,ChangesInv,Exports,Imports,FinalConsExp,GrossCF,HouseholdConsExp,AgrHuntForFish,Const
+ruction,Manufacturing,MiningManUt,TradeT,TransportComm,Other
+Africa,690,262,690,690,690,690,690,174,72,226,226,690,266,690
+...
+Criteriul de acordare a punctajului: vizualizarea fișierului output.
+B. Să se efectueze analiza de clusteri prin metoda Ward, pentru indicatorii macroeconomici de mai sus și să se
+furnizeze următoarele rezultate:
+1. Dendrograma partiției cu 3 clusteri. (1 punct)
+Criteriul de acordare a punctajului: vizualizarea graficului
+2. Componența partiției formate din 3 clusteri. Pentru fiecare instanță se va specifica clusterul din care face parte
+și scorul Silhouette al instanței. Partiția va fi salvată în fișierul p3.csv, pe 4 coloane: codul de țară, denumirea
+țării, clusterul din care face parte și scorul Sihouette. (2 puncte)
+Criteriul de acordare a punctajului: vizualizarea fișierului output.
+3. Trasare plot partiție în axe principale pentru partiția din 3 clusteri. (2 puncte)
+Criteriu de acordare a punctajului: vizualizarea graficului
+C. În fișierul a.csv se află matricea vectorilor proprii așezați pe coloane, obținută în urma aplicării unei analize
+în componente principale standardizate pe un număr de 5 variabile observate. Valorile proprii sunt: (3.24, 1.21,
+0.36, 0.16, 0.01). Să se afișeze la consolă scorurile obținute de instanța x = [3, 1, 2, 1, 4].
+Observație
+Punctajele se acordă pe baza rezultatelor obținute!
