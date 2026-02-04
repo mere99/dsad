@@ -1,8 +1,4 @@
-# Proiect Analiza Datelor - Template GitHub
-
-## Descriere Generala
-
-Acest proiect contine template-uri pentru rezolvarea unor probleme tipice de analiza de date, impartite in 3 sectiuni principale:
+#Structura examen DSAD 
 
 - **Sectiunea A**: Manipulare date si agregari (2 cerinte)
 - **Sectiunea B**: Metoda principala de analiza (3 cerinte)
