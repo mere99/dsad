@@ -1,0 +1,48 @@
+În fișierul Netflix.csv se află informații referitoare la accesibilitatea platformei Netflix în 57 de țări, în anul
+2022. Variabilele sunt următoarele: Tara, Cod - informații despre țară, Librarie - numărul total de filme și
+seriale disponibile în țara respectivă, CostLunarBasic - tariful abonamentului Basic exprimat în dolari,
+CostLunarStandard - tariful abonamentului Standard exprimat în dolari, CostLunarPremium - tariful
+abonamentului Premium exprimat în dolari, Internet - Procentul populației ce dețin o rețea de internet exprimat
+în %, HDI - Indicele de Dezvoltare Umană, Venit - salariul mediu lunar exprimat în dolari, IndiceFericire,
+IndiceEducatie - indicii fericirii și ai educației. În fișierul CoduriTari.csv se află codificări ale țărilor și
+apartenența la continente. Legătura dintre seturile de date se va face prin codul țării.
+A. Cerințe
+1. Să se determine pentru fiecare variabilă numerică (de la Librarie la  IndiceEducatie) țara cu valoarea cea
+mai mare valoare. (1 punct)
+Exemplu:
+Variabila,Tara
+Librarie,CZE
+...
+Criteriul de acordare a punctajului: vizualizarea fișierului output și a codului sursă
+2. Să se calculeze și să se salveze în fișiere csv, matricele de corelații dintre variabilele numerice (de la Librarie
+la  IndiceEducatie) la nivel de continent. Salvarea matricei de corelație pentru un continent se va face într-un
+fișier denumit astfel: nume_continent.csv (Exemplu: Europa.csv). Se va exclude O(2 puncte)
+Exemplu:
+Europa.csv
+,Librariej,CostLunarBasic,CostLunarStandard,CostLunarPremium,Internet,HDI,Venit,IndiceFericire,In
+diceEducatie
+Librarie,1.0,-0.049,0.01,-0.018,0.24,-0.081,0.007,0.007,0.272
+...
+Asia.csv
+,Librarie,CostLunarBasic,CostLunarStandard,CostLunarPremium,Internet,HDI,Venit,IndiceFericire,Ind
+iceEducatie
+Librarie,1.0,-0.096,0.029,0.073,-0.04,0.011,0.244,0.222,0.091
+...
+Criteriul de acordare a punctajului: vizualizarea fișierelor output și a codului sursă
+B. Să se efectueze analiza factorială fără rotație de factori pe setul de date de mai sus (variabilele observate
+sunt de la Librarie la  IndiceEducatie) și să se furnizeze următoarele rezultate:
+1. Corelațiile factoriale. Rezultatele vor fi salvate în fișierul R.csv. (1 punct)
+Criteriul de acordare a punctajului: Vizualizarea fișierului output.
+2. Cercul corelațiilor pentru primii trei factori (2 puncte)
+Criteriul de acordare a punctajului: vizualizarea graficelor
+3. Calcul comunalități și varianțe specifice și salvarea lor în fișierul comm_spec.csv. (2 puncte)
+Criteriul de acordare a punctajului: Vizualizarea fișierului output
+C. În fișierul h.csv este salvată matricea-ierarhie rezultată în urma unei clusterizări ierarhice. O linie în matrice
+corespunde unei joncțiuni. Coloanele 1 și 2 indică clusterii care produc joncțiunea, coloana 3 este distanța
+dintre cei doi clusteri iar ultima coloană este numărul de instanțe din clusterul nou format. Să se afișeze la
+consolă valoarea minimă și valoarea maximă a distanței de secționare a dendrogramei, care duce la partiția
+formată din 4 clusteri.
+Criteriul de acordare a punctajului: urmărirea consolei și a codului sursă
+1 punct din oficiu
+Observație
+Punctajele se acordă pe baza rezultatelor obținute!
