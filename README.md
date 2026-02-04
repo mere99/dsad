@@ -1,5 +1,5 @@
 Sub A (2 cerințe) - Manipulare date + agregări |
-Sub B (3 cerințe) - Metodă principală de analiză |
+Sub B (3 cerințe) - Metoda principală de analiză |
 Sub C (1 cerință) - Calcul teoretic
 ----------------------------------------------------
 A1 - Filtrare + Calcul medie/agregare
