@@ -1,0 +1,213 @@
+CountryID,Country,Ramura_Dominanta
+4,Afghanistan,AgrHuntForFish
+8,Albania,Other
+12,Algeria,MiningManUt
+20,Andorra,Other
+24,Angola,MiningManUt
+28,Antigua and Barbuda,Other
+31,Azerbaijan,MiningManUt
+32,Argentina,Other
+36,Australia,Other
+40,Austria,Other
+44,Bahamas,Other
+48,Bahrain,Other
+50,Bangladesh,Other
+51,Armenia,Other
+52,Barbados,Other
+56,Belgium,Other
+60,Bermuda,Other
+64,Bhutan,MiningManUt
+68,Bolivia (Plurinational State of),Other
+70,Bosnia and Herzegovina,Other
+72,Botswana,Other
+76,Brazil,Other
+84,Belize,Other
+90,Solomon Islands,AgrHuntForFish
+92,British Virgin Islands,Other
+96,Brunei Darussalam,MiningManUt
+100,Bulgaria,Other
+104,Myanmar,MiningManUt
+108,Burundi,AgrHuntForFish
+112,Belarus,MiningManUt
+116,Cambodia,AgrHuntForFish
+120,Cameroon,Other
+124,Canada,Other
+132,Cabo Verde,Other
+136,Cayman Islands,Other
+140,Central African Republic,AgrHuntForFish
+144,Sri Lanka,Other
+148,Chad,AgrHuntForFish
+152,Chile,Other
+156,China,Other
+170,Colombia,Other
+174,Comoros,AgrHuntForFish
+178,Congo,MiningManUt
+180,D.R. of the Congo,MiningManUt
+184,Cook Islands,Other
+188,Costa Rica,Other
+191,Croatia,Other
+192,Cuba,Other
+196,Cyprus,Other
+203,Czechia,Other
+204,Benin,AgrHuntForFish
+208,Denmark,Other
+212,Dominica,Other
+214,Dominican Republic,Other
+218,Ecuador,Other
+222,El Salvador,Other
+226,Equatorial Guinea,MiningManUt
+231,Ethiopia,AgrHuntForFish
+232,Eritrea,Other
+233,Estonia,Other
+242,Fiji,Other
+246,Finland,Other
+250,France,Other
+258,French Polynesia,Other
+262,Djibouti,TradeT
+266,Gabon,MiningManUt
+268,Georgia,Other
+270,Gambia,TradeT
+275,State of Palestine,Other
+276,Germany,Other
+288,Ghana,MiningManUt
+296,Kiribati,Other
+300,Greece,Other
+304,Greenland,Other
+308,Grenada,Other
+320,Guatemala,Other
+324,Guinea,MiningManUt
+328,Guyana,MiningManUt
+332,Haiti,TradeT
+340,Honduras,Other
+344," China,Hong Kong SAR ",Other
+348,Hungary,Other
+352,Iceland,Other
+356,India,Other
+360,Indonesia,MiningManUt
+364,Iran (Islamic Republic of),MiningManUt
+368,Iraq,MiningManUt
+372,Ireland,MiningManUt
+376,Israel,Other
+380,Italy,Other
+384,Côte d'Ivoire,Other
+388,Jamaica,Other
+392,Japan,Other
+398,Kazakhstan,MiningManUt
+400,Jordan,Other
+404,Kenya,Other
+408,D.P.R. of Korea,MiningManUt
+410,Republic of Korea,Other
+412,Kosovo,Other
+414,Kuwait,MiningManUt
+417,Kyrgyzstan,Other
+418,Lao People's DR,MiningManUt
+422,Lebanon,Other
+426,Lesotho,Other
+428,Latvia,Other
+430,Liberia,AgrHuntForFish
+434,Libya,Other
+438,Liechtenstein,Other
+440,Lithuania,Other
+442,Luxembourg,Other
+446," China,Macao SAR ",Other
+450,Madagascar,Other
+454,Malawi,Other
+458,Malaysia,MiningManUt
+462,Maldives,Other
+466,Mali,AgrHuntForFish
+470,Malta,Other
+478,Mauritania,MiningManUt
+480,Mauritius,Other
+484,Mexico,Other
+492,Monaco,Other
+496,Mongolia,MiningManUt
+498,Republic of Moldova,Other
+499,Montenegro,Other
+500,Montserrat,Other
+504,Morocco,Other
+508,Mozambique,AgrHuntForFish
+512,Oman,MiningManUt
+516,Namibia,Other
+520,Nauru,MiningManUt
+524,Nepal,Other
+528,Netherlands,Other
+531,Curaçao,Other
+533,Aruba,Other
+534,Sint Maarten (Dutch part),Other
+540,New Caledonia,Other
+548,Vanuatu,Other
+554,New Zealand,Other
+558,Nicaragua,Other
+562,Niger,AgrHuntForFish
+566,Nigeria,AgrHuntForFish
+578,Norway,Other
+583,Micronesia (FS of),Other
+584,Marshall Islands,Other
+585,Palau,Other
+586,Pakistan,Other
+591,Panama,Other
+598,Papua New Guinea,MiningManUt
+600,Paraguay,Other
+604,Peru,Other
+608,Philippines,Other
+616,Poland,Other
+620,Portugal,Other
+624,Guinea-Bissau,AgrHuntForFish
+626,Timor-Leste,Other
+630,Puerto Rico,MiningManUt
+634,Qatar,MiningManUt
+642,Romania,Other
+643,Russian Federation,Other
+646,Rwanda,Other
+659,Saint Kitts and Nevis,Other
+660,Anguilla,Other
+662,Saint Lucia,Other
+670,St. Vincent and the Grenadines,Other
+674,San Marino,Other
+678,Sao Tome and Principe,Other
+682,Saudi Arabia,MiningManUt
+686,Senegal,Other
+688,Serbia,Other
+690,Seychelles,Other
+694,Sierra Leone,AgrHuntForFish
+702,Singapore,Other
+703,Slovakia,Other
+704,Viet Nam,MiningManUt
+705,Slovenia,Other
+706,Somalia,AgrHuntForFish
+710,South Africa,Other
+716,Zimbabwe,TradeT
+724,Spain,Other
+728,South Sudan,MiningManUt
+729,Sudan,Other
+740,Suriname,MiningManUt
+748,Eswatini,Other
+752,Sweden,Other
+756,Switzerland,Other
+760,Syrian Arab Republic,MiningManUt
+762,Tajikistan,AgrHuntForFish
+764,Thailand,MiningManUt
+768,Togo,Other
+776,Tonga,Other
+780,Trinidad and Tobago,MiningManUt
+784,United Arab Emirates,MiningManUt
+788,Tunisia,Other
+792,Türkiye,MiningManUt
+795,Turkmenistan,MiningManUt
+796,Turks and Caicos Islands,Other
+798,Tuvalu,Other
+800,Uganda,Other
+804,Ukraine,Other
+807,North Macedonia,Other
+818,Egypt,Other
+826,United Kingdom,Other
+835,U.R. of Tanzania: Mainland,AgrHuntForFish
+836,Zanzibar,AgrHuntForFish
+840,United States,Other
+854,Burkina Faso,Other
+858,Uruguay,Other
+860,Uzbekistan,MiningManUt
+862,Venezuela (Bolivarian Republic of),MiningManUt
+882,Samoa,Other
+887,Yemen,Other
+894,Zambia,MiningManUt

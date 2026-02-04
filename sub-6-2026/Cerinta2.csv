@@ -1,0 +1,7 @@
+Continent,GNI,ChangesInv,Exports,Imports,FinalConsExp,GrossCF,HouseholdConsExp,AgrHuntForFish,Construction,Manufacturing,MiningManUt,TradeT,TransportComm,Other
+Asia,634,784,702,702,376,634,344,458,634,702,634,702,376,344
+Europe,492,578,442,442,492,492,492,352,492,438,438,492,372,492
+Africa,690,262,690,690,690,690,690,174,72,226,226,690,266,690
+North_America,60,531,60,136,60,304,60,304,304,630,630,60,840,60
+South_America,858,152,328,328,858,152,858,328,152,858,328,858,858,858
+Oceania,36,554,36,540,36,36,36,554,36,554,36,36,36,36
